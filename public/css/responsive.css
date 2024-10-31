@@ -1,0 +1,79 @@
+header {
+    background: #111; /* خلفية داكنة */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* إضافة ظل */
+}
+
+nav ul {
+    padding: 15px 0; /* زيادة الحشو */
+}
+
+nav a {
+    transition: color 0.3s; /* تأثير تغيير اللون */
+}
+
+nav a:hover {
+    color: #ff6347; /* تغيير اللون عند التمرير */
+}
+.navbar-toggler {
+    background: #ff6347; /* لون جذاب */
+    border-radius: 5px; /* زوايا دائرية */
+    padding: 10px 15px; /* حشو داخل الزر */
+    color: white; /* لون النص */
+}
+.img-responsive {
+    width: 100%; /* اجعل الصورة تأخذ عرض الحاوية بالكامل */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    display: block; /* إزالة المسافات أسفل الصورة */
+}
+
+@media (max-width: 768px) {
+    .about-img-div img {
+        width: 100%; /* اجعل الصورة تأخذ عرض 100% في الهواتف */
+        height: auto; /* الحفاظ على النسبة */
+    }
+
+    .portfolio_item img {
+        width: 100%; /* اجعل الصورة في المشاريع تأخذ عرض 100% */
+        height: auto; /* الحفاظ على النسبة */
+    }
+}
+@media (max-width: 768px) {
+    .social {
+        text-align: center; /* جعل الرموز الاجتماعية في منتصف الشاشة */
+    }
+
+    .fh5co_contact_text_box,
+    .fh5co_contacts_message {
+        width: 90%; /* تأكد من أن عرض العناصر 100% */
+        margin-bottom: 15px; /* إضافة مسافة بين الحقول */
+    }
+
+    .contact-form {
+        padding: 50px; /* الحفاظ على padding لراحة الاستخدام */
+    }
+}
+@media (max-width: 768px) {
+    .social {
+        text-align: center; /* توسيط الرموز الاجتماعية */
+    }
+
+    .fh5co_contact_text_box,
+    .fh5co_contacts_message {
+        width: 100%; /* تأكد من أن العرض 100% */
+        margin-bottom: 15px; /* إضافة مسافة بين الحقول */
+    }
+
+    .contact-form {
+        padding: 20px; /* الحفاظ على padding لراحة الاستخدام */
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1.size-50 {
+        font-size: 24px; /* تقليل حجم العنوان */
+    }
+
+    h3 {
+        font-size: 20px; /* تقليل حجم العناوين الثانوية */
+    }
+}
